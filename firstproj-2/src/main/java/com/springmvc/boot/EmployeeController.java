@@ -34,7 +34,7 @@ public class EmployeeController
 		
 		
 	}
-	// fetch value by id
+	// fetch value by id -Prashant
 	@RequestMapping("employee/{emp_id}")
 	public Employee_details getEmployee1(@PathVariable("emp_id") int emp_id)
 	{
